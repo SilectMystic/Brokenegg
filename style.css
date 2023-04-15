@@ -1,8 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 body {
     background-color: #0f0e17;
     color: #a7a9be;
+    font-family: 'Nunito', sans-serif;
 }
 
 nav {
     background-color: #495592;
 }
+nav li{
+    padding-right: 50px;
+}
+
+.tittle {
+    color: black;
+    font-size: large;
+}
+
+.price {
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.bold {
+    font-weight: bolder;
+    padding: 2px;
+}
+
+/* .left {
+    float: left;
+    padding-left: 10px;
+} */
