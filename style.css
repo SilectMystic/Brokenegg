@@ -7,10 +7,11 @@ body {
 }
 
 nav {
-    background-color: #495592;
+    background-color: #2e375e;
+    border-radius: 8px;
 }
 nav li{
-    padding-right: 50px;
+    padding-right: 15px;
 }
 
 .tittle {
@@ -25,12 +26,284 @@ nav li{
     text-decoration: none;
 }
 
+.price:hover {
+    background-color: rgb(34, 32, 32);
+    color: #124aff;
+}
+
+.priceRight{
+    position: absolute;
+    right: 50px;
+    bottom: 15px;
+}
+
+.viewMore {
+    background-color: rgb(88, 31, 31);
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.viewMore:hover {
+    background-color: rgb(34, 32, 32);
+    color: #124aff;
+}
+
 .bold {
     font-weight: bolder;
     padding: 2px;
 }
 
-/* .left {
-    float: left;
-    padding-left: 10px;
-} */
+#navColor {
+    background-color: #495592;
+    border-radius: 8px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    position: absolute;
+    left: 17px;
+    bottom: 12px;
+}
+
+.tittleLink {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.itemTittle:hover {
+    text-decoration: underline;
+    color: #0f0e17;
+}
+
+.productInf {
+    float: right;
+    color: white;
+}
+
+.itemDiv {
+    background-color: #232946;
+}
+
+.pageTittle {
+    background-color: #232946;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+hr {
+    border: 1px solid #8bd3dd;
+}
+
+#carouselExampleIndicators {
+    width: 550px;
+    padding: 15px;
+    position: absolute;
+}
+
+#itemCarousel {
+    position: relative;
+}
+
+.itemDescrip {
+    position: absolute;
+    background-color: #232946;
+    width: 400px;
+    top: 30px;
+    right: 200px;
+}
+
+.pictureCarousel1 {
+    top: 190px;
+    left: 30px;
+}
+
+.pictureCarousel2 {
+    top: 39px;
+    left: 30px;
+}
+
+.pictureCarousel3 {
+    top: 260px;
+    left: 30px;
+}
+
+.pictureCarousel4 {
+    top: 275px;
+    left: 30px;
+}
+
+.pictureCarousel5 {
+    top: 265px;
+    left: 30px;
+}
+
+.pictureCarousel6 {
+    top: 255px;
+    left: 30px;
+}
+
+.itemPadding1 {
+    padding: 380px;
+}
+
+.itemPadding2 {
+    padding: 220px;
+}
+
+.itemPadding3 {
+    padding: 460px
+}
+
+.itemPadding4 {
+    padding: 450px;
+}
+
+.itemPadding5 {
+    padding: 430px;
+}
+
+.itemPadding6 {
+    padding: 428px;
+}
+
+.itemTittle {
+    color: goldenrod;
+    font-weight: bolder;
+}
+
+.itemSpecs {
+    color: gray;
+}
+
+.card {
+    background-color: #232946;
+    color: gray;
+}
+
+#cartBox {
+    background-color: #040318;
+    border-radius: 8px;
+    padding: 300px;
+}
+
+.carouselButton {
+    background-color: black;
+    color: black;
+}
+
+.indexCarousel {
+    width: 1250px;
+    height: 500px;
+}
+
+.itemMore {
+    width: 328px;
+}
+
+.itemMaintittle {
+    color: goldenrod;
+    font-weight: bolder;
+}
+
+.rounded {
+    border-radius: 8px;
+}
+
+.paddingPrice {
+    padding: 1px;
+    padding-top: 11px;
+}
+
+input, textarea {
+    background-color: #040318;
+    color: #fffffe;
+    font-family: 'Nunito', sans-serif;
+    border: 3px;
+    border-color: #2e375e;
+    border-style: solid;
+    border-radius: 9px;
+    padding: 8px;
+
+}
+
+input:focus, textarea:focus {
+    border: rgb(34, 32, 32) 5px solid;
+}
+
+input[type=submit], input[type=reset] {
+    color: #7f5af0;
+    font-family: 'Acme', sans-serif;
+    border: 3px;
+    border-color: #485592;
+    border-style: solid;
+    border-radius: 9px;
+    padding: 4px;
+    background-color: #02ffff;
+
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color: rgb(34, 32, 32);
+    color: #124aff;
+}
+
+.nounderline {
+    text-decoration: none;
+    font-size: large;
+}
+
+@media screen and (max-width: 480px) {
+    .indexCarousel {
+        width: 380px;
+        padding-right: 23px;
+    }
+    #navColor {
+        background-color: #2e375e;
+    }
+    #cartBox {
+        padding: 100px;
+        height: auto;
+    }
+    /* .products {
+        position: relative;
+        padding: 10px
+    } */
+    .productsItems {
+        padding: 50px;
+    }
+    .pictureCarousel1 {
+        display: none;
+    }
+    .pictureCarousel2 {
+        display: none;
+    }
+    .pictureCarousel3 {
+        display: none;
+    }
+    .pictureCarousel3 {
+        display: none;
+    }
+    .pictureCarousel4 {
+        display: none;
+    }
+    .pictureCarousel5 {
+        display: none;
+    }
+    .pictureCarousel6 {
+        display: none;
+    }
+    .itemDescrip {
+        top: 0px;
+        left: 22px;
+        width: 350px;
+
+    }
+    #itemPadding {
+        padding: 150px;
+        padding-bottom: 620px;
+    }
+}
