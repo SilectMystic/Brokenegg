@@ -256,10 +256,51 @@ input[type=submit]:hover, input[type=reset]:hover {
     font-size: large;
 }
 
+.carouselMobile {
+    display: none;
+}
+
 @media screen and (max-width: 480px) {
     .indexCarousel {
-        width: 380px;
-        padding-right: 23px;
+        width: 370px;
+        height: 425px;
+        position: relative;
+    }
+    .carousel-inner {
+        position: absolute;
+        right: 0px;
+    }
+    .indexInfo {
+        bottom: -55px;
+        padding: 167px;
+        position: relative;
+    }
+    .indexInfoL {
+        bottom: -25px;
+        padding: 167px;
+        position: relative;
+    }
+    .indexImage {
+        position: absolute;
+        top: -50px;
+        width: 300px;
+        height: 198px;
+        left: 35px;
+    }
+    .indexLogo {
+        position: absolute;
+        top: 25px;
+        width: 300px;
+        height: 198px;
+        left: 35px;
+    }
+    .carouselPC {
+        display: none;
+    }
+    .carouselMobile {
+        display: contents;
+        /* position: absolute;
+        bottom: 100px; */
     }
     #navColor {
         background-color: #2e375e;
@@ -284,9 +325,6 @@ input[type=submit]:hover, input[type=reset]:hover {
     .pictureCarousel3 {
         display: none;
     }
-    .pictureCarousel3 {
-        display: none;
-    }
     .pictureCarousel4 {
         display: none;
     }
@@ -300,10 +338,13 @@ input[type=submit]:hover, input[type=reset]:hover {
         top: 0px;
         left: 22px;
         width: 350px;
-
     }
     #itemPadding {
         padding: 150px;
         padding-bottom: 620px;
+    }
+    .itemMore {
+        width: 5000px;
+        left: 0px;
     }
 }
