@@ -316,28 +316,29 @@ input[type=submit]:hover, input[type=reset]:hover {
     .productsItems {
         padding: 50px;
     }
-    .pictureCarousel1 {
+    /* .pictureCarousel1 {
         display: none;
+    } */
+    .itemPadding1 {
+        background-color: wheat;
+        padding-bottom: 800px;
+        padding-right: 0px;
     }
-    .pictureCarousel2 {
-        display: none;
+    .picturemCarousel1 {
+        width: 100px;
     }
-    .pictureCarousel3 {
-        display: none;
-    }
-    .pictureCarousel4 {
-        display: none;
-    }
-    .pictureCarousel5 {
-        display: none;
-    }
-    .pictureCarousel6 {
-        display: none;
+    .carousel-inner {
+        top: 0px;
+        left: 0px;
+        
     }
     .itemDescrip {
-        top: 0px;
-        left: 22px;
+        position: absolute;
+        bottom: 0px;
+        left: -170px;
         width: 350px;
+        height: 747px;
+        display: none;
     }
     #itemPadding {
         padding: 150px;
