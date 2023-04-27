@@ -188,6 +188,116 @@ hr {
     background-color: #040318;
     border-radius: 8px;
     padding: 300px;
+    padding-bottom: 350px;
+    position: relative;
+}
+
+label img {
+    width: 200px;
+}
+
+#check1 {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+
+#item1 {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+
+#item1Des {
+    position: absolute;
+    right: -140px;
+    top: 18px;
+}
+
+#check2 {
+    position: absolute;
+    top: 285px;
+    left: 20px;
+}
+
+#item2 {
+    position: absolute;
+    top: 225px;
+    left: 50px;
+}
+
+#item2Des {
+    position: absolute;
+    right: -174px;
+    top: 18px;
+}
+
+#check3 {
+    position: absolute;
+    top: 470px;
+    left: 20px;
+}
+
+#item3 {
+    position: absolute;
+    top: 410px;
+    left: 50px;
+}
+
+#item3Des {
+    position: absolute;
+    right: -151px;
+    top: 18px;
+}
+
+.stock {
+    font-size: smaller;
+    color: green;
+}
+
+/* #item {
+    position: absolute;
+    top: 0px;
+} */
+
+#cartDes {
+    background-color: white;
+    padding-right: 100px;
+}
+
+#cartDiv {
+    width: 98%;
+    position: absolute;
+    bottom: 40px;
+    left: 1%;
+}
+
+#cartPrice {
+    position: absolute;
+    left: 30%;
+    bottom: 0px;
+}
+
+#checkoutB {
+    position: absolute;
+    bottom: 8px;
+    left: 42%;
+}
+
+.button {
+    color: #7f5af0;
+    font-family: 'Acme', sans-serif;
+    border: 3px;
+    border-color: #485592;
+    border-style: solid;
+    border-radius: 9px;
+    padding: 4px;
+    background-color: #02ffff;
+}
+
+.button:hover {
+    background-color: rgb(34, 32, 32);
+    color: #124aff;
 }
 
 .carouselButton {
